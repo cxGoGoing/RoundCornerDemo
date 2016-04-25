@@ -15,6 +15,8 @@
 		577B31971CCE179300DC2863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577B31951CCE179300DC2863 /* LaunchScreen.storyboard */; };
 		577B31A21CCE179300DC2863 /* RoundCornerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 577B31A11CCE179300DC2863 /* RoundCornerDemoTests.m */; };
 		577B31AD1CCE179300DC2863 /* RoundCornerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 577B31AC1CCE179300DC2863 /* RoundCornerDemoUITests.m */; };
+		577B31BF1CCE184900DC2863 /* UIImage+RoundCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 577B31BC1CCE184900DC2863 /* UIImage+RoundCorner.m */; };
+		577B31C01CCE184900DC2863 /* UIView+RoundCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 577B31BE1CCE184900DC2863 /* UIView+RoundCorner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		577B31A81CCE179300DC2863 /* RoundCornerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundCornerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		577B31AC1CCE179300DC2863 /* RoundCornerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundCornerDemoUITests.m; sourceTree = "<group>"; };
 		577B31AE1CCE179300DC2863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		577B31BB1CCE184900DC2863 /* UIImage+RoundCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundCorner.h"; sourceTree = "<group>"; };
+		577B31BC1CCE184900DC2863 /* UIImage+RoundCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundCorner.m"; sourceTree = "<group>"; };
+		577B31BD1CCE184900DC2863 /* UIView+RoundCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RoundCorner.h"; sourceTree = "<group>"; };
+		577B31BE1CCE184900DC2863 /* UIView+RoundCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RoundCorner.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		577B317B1CCE179300DC2863 = {
 			isa = PBXGroup;
 			children = (
+				577B31BA1CCE180900DC2863 /* RoundCornerCategory */,
 				577B31861CCE179300DC2863 /* RoundCornerDemo */,
 				577B31A01CCE179300DC2863 /* RoundCornerDemoTests */,
 				577B31AB1CCE179300DC2863 /* RoundCornerDemoUITests */,
@@ -138,6 +145,17 @@
 				577B31AE1CCE179300DC2863 /* Info.plist */,
 			);
 			path = RoundCornerDemoUITests;
+			sourceTree = "<group>";
+		};
+		577B31BA1CCE180900DC2863 /* RoundCornerCategory */ = {
+			isa = PBXGroup;
+			children = (
+				577B31BB1CCE184900DC2863 /* UIImage+RoundCorner.h */,
+				577B31BC1CCE184900DC2863 /* UIImage+RoundCorner.m */,
+				577B31BD1CCE184900DC2863 /* UIView+RoundCorner.h */,
+				577B31BE1CCE184900DC2863 /* UIView+RoundCorner.m */,
+			);
+			path = RoundCornerCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				577B318F1CCE179300DC2863 /* ViewController.m in Sources */,
+				577B31BF1CCE184900DC2863 /* UIImage+RoundCorner.m in Sources */,
 				577B318C1CCE179300DC2863 /* AppDelegate.m in Sources */,
 				577B31891CCE179300DC2863 /* main.m in Sources */,
+				577B31C01CCE184900DC2863 /* UIView+RoundCorner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
