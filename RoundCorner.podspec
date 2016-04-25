@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author       = { "chengxun" => "chengxun08@163.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/cxGoGoing/RoundCornerDemo.git", :tag => "v0.0.1" }
-  s.source_files = "RoundCornerDemo/RoundCornerCategory/*.{h,m}"
+  s.source_files = "RoundCornerCategory/*.{h,m}"
   s.requires_arc = true
 end
